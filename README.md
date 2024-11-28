@@ -27,8 +27,9 @@ Through our SEACrowd benchmarks, we assess the quality of AI models on 36 indige
 
 To run a model on our benchmark, simply take add the relevant model to our evaluation script(s):
 - NLU
-    - [`evaluation/run_nlu_prompt_batch.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlu_prompt.sh) for open-source models
-    - [`evaluation/run_nlu_prompt_batch_commercial.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlu_prompt_commercial.sh) for commercial (API-based) models
+    - ~~[`evaluation/run_nlu_prompt_batch.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlu_prompt.sh) for open-source models~~
+    - ~~[`evaluation/run_nlu_prompt_batch_commercial.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlu_prompt_commercial.sh) for commercial (API-based) models~~
+    - [`evaluation/run_nlu_prompt_batch_zsm.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlu_prompt_zsm.sh) for evaluating on ZSM and ZLM.
 - NLG
     - [`evaluation/run_nlg_prompt_batch.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlg_prompt.sh) for open-source models
     - [`evaluation/run_nlg_prompt_batch_commercial.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlg_prompt_commercial.sh) for commercial (API-based) models
