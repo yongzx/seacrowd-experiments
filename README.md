@@ -31,8 +31,9 @@ To run a model on our benchmark, simply take add the relevant model to our evalu
     - ~~[`evaluation/run_nlu_prompt_batch_commercial.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlu_prompt_commercial.sh) for commercial (API-based) models~~
     - [`evaluation/run_nlu_prompt_batch_zsm.sh`](https://github.com/yongzx/seacrowd-experiments/blob/malay_eval/evaluation/run_nlu_prompt_zsm.sh) for evaluating on ZSM and ZLM.
 - NLG
-    - [`evaluation/run_nlg_prompt_batch.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlg_prompt.sh) for open-source models
-    - [`evaluation/run_nlg_prompt_batch_commercial.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlg_prompt_commercial.sh) for commercial (API-based) models
+    - ~~[`evaluation/run_nlg_prompt_batch.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlg_prompt.sh) for open-source models~~
+    - ~~[`evaluation/run_nlg_prompt_batch_commercial.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_nlg_prompt_commercial.sh) for commercial (API-based) models~~
+    - [`evaluation/run_nlg_prompt_batch_zsm.sh`](https://github.com/yongzx/seacrowd-experiments/blob/malay_eval/evaluation/run_nlg_prompt_zsm.sh) for evaluating on ZSM and ZLM.
 - Speech
     - [`evaluation/run_speech_mms.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_speech_mms.sh) for MMS-based models
     - [`evaluation/run_speech_seamless.sh`](https://github.com/SEACrowd/seacrowd-experiments/blob/main/evaluation/run_speech_seamless.sh) for Seamless-based models
