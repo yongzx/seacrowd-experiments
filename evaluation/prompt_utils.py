@@ -1,5 +1,5 @@
 TASK_TO_PROMPT = {
-    'eng': {
+    'eng': { # "SEACrowd: We employ 3 prompt templates in English for each NLU task and 1 for each NLG task."
         ####
         # NLU Tasks
         ####
@@ -685,7 +685,7 @@ LABEL_LANG_MAP ={
     },
     "seaeval_cross_mmlu_zlm_seacrowd_qa": {
         'eng': {0: 'a', 1: 'b', 2: 'c', 3: 'd'},
-        'ind': {0: 'a', 1: 'b', 2: 'c', 3: 'd'},
+        'zsm': {0: 'a', 1: 'b', 2: 'c', 3: 'd'},
     },
     "seaeval_cross_mmlu_fil_seacrowd_qa": {
         'eng': {0: 'a', 1: 'b', 2: 'c', 3: 'd'},
@@ -917,19 +917,19 @@ LANG_MAP = {
         'en': 'English',
         'tam': 'Tamil'
     },
-    'ind': {
-        'ind': 'Indonesia',
-        'xdy': 'Dayak',
-        'bug': 'Bugis',
-        'mad': 'Madura',
-        'bjn': 'Banjar',
-        'tiociu': 'Tiociu',
-        'jav': 'Jawa',
-        'sun': 'Sunda',
-        'ace': 'Aceh',
-        'ban': 'Bali',
-        'min': 'Minangkabau'
-    }
+    # 'ind': {
+    #     'ind': 'Indonesia',
+    #     'xdy': 'Dayak',
+    #     'bug': 'Bugis',
+    #     'mad': 'Madura',
+    #     'bjn': 'Banjar',
+    #     'tiociu': 'Tiociu',
+    #     'jav': 'Jawa',
+    #     'sun': 'Sunda',
+    #     'ace': 'Aceh',
+    #     'ban': 'Bali',
+    #     'min': 'Minangkabau'
+    # }
 }
 
 def get_label_mapping(dset_subset, prompt_lang):
